@@ -9,6 +9,7 @@ Este projeto simula um sistema de reserva e controle de quartos em um hotel, uti
 
 ## Estrutura de Pastas
 
+``` bash
 .
 ├── src
 │   ├── hotel
@@ -21,7 +22,7 @@ Este projeto simula um sistema de reserva e controle de quartos em um hotel, uti
 │   └── test
 │       └── Test.java
 └── README.md
-
+```
 ## Entidades Representadas
 
 1. **Quarto**
