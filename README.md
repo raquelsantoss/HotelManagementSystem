@@ -1,6 +1,26 @@
 # AT3/N1 - Controle de Quartos em Hotel
 
+[![GitHub license](https://img.shields.io/github/license/yourusername/controle-quartos-hotel)](https://github.com/yourusername/controle-quartos-hotel/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/yourusername/controle-quartos-hotel)](https://github.com/yourusername/controle-quartos-hotel/issues)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/controle-quartos-hotel)](https://github.com/yourusername/controle-quartos-hotel/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/controle-quartos-hotel)](https://github.com/yourusername/controle-quartos-hotel/network)
+
 Este projeto simula um sistema de reserva e controle de quartos em um hotel, utilizando threads para representar diferentes entidades envolvidas, como hóspedes, camareiras, recepcionistas e camareira. O sistema foi desenvolvido como uma atividade prática coletiva para o Bimestre N1.
+
+## Estrutura de Pastas
+
+.
+├── src
+│   ├── hotel
+│   │   └── Main.java
+│   ├── entity
+│   │   ├── Quarto.java
+│   │   ├── Hospede.java
+│   │   ├── Camareira.java
+│   │   └── Recepcionista.java
+│   └── test
+│       └── Test.java
+└── README.md
 
 ## Entidades Representadas
 
@@ -38,6 +58,6 @@ Este projeto simula um sistema de reserva e controle de quartos em um hotel, uti
 - Não é possível para apenas parte dos hóspedes de um quarto sair para passear.
 - O sistema deve simular diversas situações, como chegada de diferentes números de hóspedes, grupos grandes, todos os quartos ocupados, etc.
 - É necessário garantir sincronia e coordenação entre as diferentes entidades do sistema.
-
+  
 ---
 Este projeto foi desenvolvido como parte de uma atividade acadêmica e visa demonstrar a aplicação de conceitos de concorrência e sincronização em Java para simulação de um sistema de reserva e controle de quartos em um hotel.
