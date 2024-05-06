@@ -23,23 +23,7 @@ Este projeto simula um sistema de reserva e controle de quartos em um hotel, uti
 │       └── Test.java
 └── README.md
 ```
-``` bash
-.
-├── README.md
-├── pom.xml
-└── src
-    └── main
-        └── java
-            └── org
-                └── example
-                    └── hotel
-                        ├── Main.java
-                        └── entities
-                            ├── Guest.java
-                            ├── Maid.java
-                            ├── Receptionist.java
-                            └── Room.java
-```
+
 
 ## Entidades Representadas
 
