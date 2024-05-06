@@ -15,14 +15,32 @@ Este projeto simula um sistema de reserva e controle de quartos em um hotel, uti
 │   ├── hotel
 │   │   └── Main.java
 │   ├── entity
-│   │   ├── Quarto.java
-│   │   ├── Hospede.java
-│   │   ├── Camareira.java
-│   │   └── Recepcionista.java
+│   │   ├── Room.java
+│   │   ├── Guest.java
+│   │   ├── Maid.java
+│   │   └── Receptionist.java
 │   └── test
 │       └── Test.java
 └── README.md
 ```
+``` bash
+.
+├── README.md
+├── pom.xml
+└── src
+    └── main
+        └── java
+            └── org
+                └── example
+                    └── hotel
+                        ├── Main.java
+                        └── entities
+                            ├── Guest.java
+                            ├── Maid.java
+                            ├── Receptionist.java
+                            └── Room.java
+```
+
 ## Entidades Representadas
 
 1. **Quarto**
