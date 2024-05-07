@@ -24,6 +24,10 @@ Este projeto simula um sistema de reserva e controle de quartos em um hotel, uti
 └── README.md
 ```
 
+## Testes Unitários
+
+O projeto possui testes unitários no pacote `test`, a versão utilizada é a `5.8.1`
+
 
 ## Entidades Representadas
 
