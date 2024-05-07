@@ -7,6 +7,10 @@
 
 Este projeto simula um sistema de reserva e controle de quartos em um hotel, utilizando threads para representar diferentes entidades envolvidas, como hóspedes, camareiras, recepcionistas e camareira. O sistema foi desenvolvido como uma atividade prática coletiva para o Bimestre N1.
 
+## Repositório base 
+
+https://github.com/esuEdu/Hotel (repositório usado como teste)
+
 ## Estrutura de Pastas
 
 ``` bash
