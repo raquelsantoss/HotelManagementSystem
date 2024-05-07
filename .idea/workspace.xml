@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2478814e-3aca-4b45-8b7e-371f90833ffe" name="Changes" comment="feat: Create entity room and its method">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hotel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hotel/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hotel/entities/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hotel/entities/Guest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hotel/entities/Receptionist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hotel/entities/Receptionist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hotel/entities/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hotel/entities/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/raquelsantoss/HotelManagementSystem.git",
-    "accountId": "2c9be655-f877-4ae3-9c18-a3d176ec84ae"
+    "accountId": "af21ae27-49ae-4d87-969b-8bd503481674"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -46,11 +49,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "feat/creating-receptionist-branch",
+    "git-widget-placeholder": "fix/guest",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/giovannifavorin/Documents/Faculdade/Concorrência/HotelManagementSystem",
     "node.js.detected.package.eslint": "true",
@@ -64,8 +68,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -79,6 +83,7 @@
       <updated>1714958301836</updated>
       <workItem from="1715039513951" duration="340000" />
       <workItem from="1715042930019" duration="674000" />
+      <workItem from="1715045019574" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Create entity room and its method">
       <option name="closed" value="true" />

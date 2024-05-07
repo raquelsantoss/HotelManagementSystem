@@ -8,6 +8,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 import org.example.hotel.entities.Guest;
+import org.example.hotel.entities.Maid;
 import org.example.hotel.entities.Receptionist;
 import org.example.hotel.entities.Room;
 
