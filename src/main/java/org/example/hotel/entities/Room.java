@@ -71,4 +71,12 @@ public class Room {
         return guests;
     }
 
+    public void setClean(boolean clean) {
+        Clean = clean;
+    }
+
+    public Maid getMaid() {
+        return maid;
+    }
+
 }
