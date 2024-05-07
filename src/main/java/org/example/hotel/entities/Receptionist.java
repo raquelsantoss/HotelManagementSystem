@@ -1,4 +1,4 @@
-package org.hotel;
+package org.example.hotel.entities;
 
 import java.util.Random;
 
