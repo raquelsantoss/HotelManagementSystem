@@ -78,5 +78,4 @@ public class Room {
     public Maid getMaid() {
         return maid;
     }
-
 }

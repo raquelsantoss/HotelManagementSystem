@@ -1,6 +1,6 @@
 package org.example.hotel.entities;
 
-import static org.Project.Main.allocateGuest;
+import static org.example.hotel.Main.allocateGuest;
 
 public class Receptionist extends Thread {
 
@@ -8,7 +8,7 @@ public class Receptionist extends Thread {
     public boolean running;
 
 
-    Receptionist(String name) {
+    public Receptionist(String name) {
         this.name = name;
         this.running = false;
     }
