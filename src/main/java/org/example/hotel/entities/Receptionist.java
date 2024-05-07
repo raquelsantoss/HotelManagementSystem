@@ -1,34 +1,28 @@
 package org.example.hotel.entities;
 
-import java.util.Random;
+import static org.Project.Main.allocateGuest;
 
-public class Receptionist implements Runnable {
+public class Receptionist extends Thread {
+
     private final String name;
-    private final Hotel hotel;
+    public boolean running;
 
-    public Receptionist(Hotel hotel, String name) {
-        this.hotel = hotel;
+
+    Receptionist(String name) {
         this.name = name;
+        this.running = false;
     }
 
-    @Override
-    public void run() {
-        Random random = new Random();
-        try {
-            while (true) {
-                Thread.sleep(random.nextInt(5000)); // Random service time
-                synchronized (hotel.getReceptionLock()) {
-                    Room room = hotel.getAvailableRoom();
-                    if (room != null) {
-                        room.occupy();
-                        System.out.println(name + " allocated a room " + room.getNumber() + " for a new ");
-                    } else {
-                        System.out.println(name + " couldn't find available room for a new guest");
-                    }
-                }
-            }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+    public void run() {}
+
+    public boolean getRoom(int numberOfFamily, Guest guest) {
+        running = true;
+        boolean isGetRoom = allocateGuest(numberOfFamily, guest, this);
+        running = false;
+        return isGetRoom;
+    }
+
+    public String getReceptionistName() {
+        return name;
     }
 }
