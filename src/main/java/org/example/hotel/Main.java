@@ -92,7 +92,7 @@ public class Main {
                     guest.addRooms(availableRoom.get());
                 }
             }
-            System.out.println(receptionist.getReceptionistName() + " alocou um hóspede " + guest.getGuestName() + " e sua família");
+            System.out.println(receptionist.getReceptionistName() + " alocou um hóspede " + guest.getGuestName() + " e sua família de " + numberOfFamily + " pessoas");
             return true;
         }finally {
             lock.unlock();
